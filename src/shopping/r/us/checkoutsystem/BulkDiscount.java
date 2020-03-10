@@ -1,10 +1,19 @@
 package shopping.r.us.checkoutsystem;
 
+/**
+ * Bulk discount
+ */
 public class BulkDiscount implements Discount {
     private final String sku;
     private final int bulkQty;
     private final double specialPrice;
 
+    /**
+     *
+     * @param sku: product's SKU
+     * @param bulkQty: threshold quantity for discount
+     * @param specialPrice: special unit price for discount
+     */
     public BulkDiscount(String sku, int bulkQty, double specialPrice) {
         this.sku = sku;
         this.bulkQty = bulkQty;
