@@ -35,12 +35,18 @@ Your task is to implement a checkout system that fulfils the requirements
 described above.
 
 ## Example scenarios
-SKUs Scanned: atv, atv, atv, vga<br>
-Total expected: $249.00<br><br>
-SKUs Scanned: atv, ipd, ipd, atv, ipd, ipd, ipd<br>
-Total expected: $2718.95<br><br>
-SKUs Scanned: mbp, vga, ipd<br>
+```
+SKUs Scanned: atv, atv, atv, vga
+Total expected: $249.00
+```
+```
+SKUs Scanned: atv, ipd, ipd, atv, ipd, ipd, ipd
+Total expected: $2718.95
+```
+```
+SKUs Scanned: mbp, vga, ipd
 Total expected: $1949.98
+```
 
 ## Development environment
 * IntelliJ IDEA
